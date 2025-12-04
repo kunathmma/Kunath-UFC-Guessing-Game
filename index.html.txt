@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kunath</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -9,11 +10,10 @@
     <h1>Kunath</h1>
     <h2>UFC Guessing Game</h2>
 
-    <!-- Autocomplete input will be inserted by script.js -->
+    <div id="game-container">
+        <!-- Wordle-style grid and keyboard will go here -->
+    </div>
 
-    <div id="keyboardContainer"></div>
-    <div id="gridContainer"></div>
-
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
